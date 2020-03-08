@@ -1,0 +1,371 @@
+/* ----- Genetal ----- */
+body{
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+	color: #000;
+	letter-spacing: 0.02em;
+	margin: 0 0;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+	line-height: 1.25em;
+	letter-spacing: 0.02em;
+	padding: 0;
+	margin: 0;
+	font-weight: 900;
+}
+
+div, form, button, input, a, p, span, ul, li{
+	box-sizing: border-box;
+}
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+a, button, li{
+	transition: all 0.5s ease; 
+	text-decoration: none;
+	color: #000;
+}
+/* ----- HTML-CSS ----- */
+.d-flex{
+	display: flex;
+	align-items: flex-start;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.ai-center{
+	align-items: center;
+}
+/* ----- Repeating elements ----- */
+/* ----- Logo ----- */
+.logo{
+	width: 160px;
+	font-size: 15px;
+	color: #0038E3;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.logo__icon{
+	font-size: 25px;
+	color: #fff;
+	padding: 12px 15px;
+	margin-right: 13px;
+	background: #0038E3;
+	border-radius: 5px;
+}
+.logo__text{
+	font-size: 14px;
+}
+.logo span{
+	font-size: 20px;
+}
+/* ----- Phone ----- */
+.phone{
+	margin-left: auto;	
+	font-weight: 700;
+}
+/* ----- Form ----- */
+.form{
+	width: 333px;
+	background: #fff;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+	padding: 35px 33px 30px 30px;
+}
+.form__title{
+	font-size: 17px;
+}
+.form__text{
+	font-size: 14px;
+	margin: 13px 0 20px 0;
+}
+.form input{
+	font-family: Roboto, Arial, sans-serif;
+	letter-spacing: 0.02em;
+	font-size: 13px;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid  #bababa;
+	margin-bottom: 13px;
+	padding: 10px 0;
+}
+.form  input:focus{
+	color: #000;
+}
+.form input:focus::placeholder{
+	color: #000;
+}
+.form__send{
+	font-family: Roboto, Arial, sans-serif;
+	letter-spacing: 0.02em;
+	width: 100%;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background: #00CD3E;
+	cursor: pointer;
+	padding: 20px 65px;
+	margin: 13px 0;
+}
+.form__send:hover{
+	background: #0fab13;
+}
+.form__text_under{
+	color: #adadad;
+	font-size: 12px;
+	margin:0;
+}
+/* ----- Section Header ----- */
+.header{
+	background: #EEF7F7 url(../img/bg1.jpg) no-repeat center top;
+}
+/* ----- Header Navigation ----- */
+.navigation{
+	background: #fff;
+	box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.1);
+	padding: 18px 0 20px 0;
+}
+.menu{
+	font-size: 12px;
+	margin-left: 82px;
+}
+.menu__link{
+	padding: 9px 21px;
+}
+.menu__link:hover{
+	color: #fff;
+	background: #000;
+	border-radius: 5px;
+}
+/* ----- Header Main ----- */
+.main .container{
+	width: 1000px;
+}
+.ofer{
+	text-align: center;
+	padding: 90px 0px 140px 0px;
+}
+.profi{
+	width: 530px;
+}
+.profi__text{
+	font-size: 16px;
+}
+.profi__title{
+	font-size: 45px;
+	color: #0038E3;
+	margin: 22px 0;
+}
+.profi__text_under{
+	font-size: 14px;
+	background: #000;
+	color: #fff;
+	width: 150px;
+	border-radius: 3px;
+	padding: 3px 7px;
+	margin: 0px auto 0 auto;
+}
+/* ----- Section My-self ----- */
+.my-self{
+	padding: 124px 0 120px 0;
+}
+.my-self h2{
+	font-size: 28px;
+	margin-bottom: 16px;
+}
+/* ----- My-self Info ----- */
+.info{
+	max-width: 1010px;
+	margin-bottom: 65px;
+}
+.about-me{
+	color: #fff;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+	background: #AE6BE0;
+	border-radius: 5px;
+	padding: 39px 95px  45px 55px;	
+}
+.about-me__title{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 9px;
+}
+.about-me__achievement{
+	font-size: 13px;	
+	width: 320px;
+	margin: 20px 0;
+}
+.about-me__achievement span{
+	font-size: 39px;
+	font-weight: 700;
+	display: block;
+	margin-right: 15px;	
+}
+.about-me__link{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+}
+.about-me__link:hover{
+	font-size: 18px;
+}
+.statistics{
+	padding: 0 0 27px 0px;
+	width: 440px;
+}
+.statistics span{
+	font-weight: 700;
+}
+/* ----- My-self Small  ----- */
+.small{
+	max-width: 1008px;
+	margin-left: auto;
+}
+.roof{
+	width: 440px;
+	padding-bottom: 26px;
+}
+.purpose{
+	background: #f6e23a;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	width: 470px;
+	height: 265px;
+	text-align: center;
+}
+.purpose strong{
+	display: block;
+	font-weight: 900;
+	font-size: 43px;
+	margin-bottom: 15px;
+}
+.purpose p{
+	margin: auto;
+	font-size: 21px;	
+}
+/* ----- Section How ----- */
+.how{
+	background: #EEF7F7 url(../img/bg1.jpg) no-repeat center top;
+	padding: 106px 0;
+}
+.how__head{
+	font-size: 28px;
+	margin-bottom: 73px;
+}
+.how__title{
+	color: #0038E3;
+	margin: 15px 0;
+}
+.how__number{
+	color: #fff;
+	font-size: 26px;
+	font-weight: 900;
+	background: #0038E3;
+	border-radius: 5px;
+	padding: 30px 34px;
+	margin-right: 35px;
+}
+.thousand{
+	width: 220px;
+}
+.travel{
+	width: 190px;
+}
+.ahead{
+	width: 225px;
+}
+.how__ahead{
+	font-size: 19px;
+	color: #0038E3;
+	margin: 15px 0;
+}
+/* ----- Section Criterion ----- */
+.criterion{
+	padding: 90px 0 100px 0;
+}
+.criterion__head{
+	font-size: 28px;
+	margin-bottom: 65px;
+}
+.criterion__icon{
+	font-size: 42px;
+	margin-bottom: 25px;
+}
+.criterion__item{
+	width: 350px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+.criterion__item:hover{
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.criterion__item_flag{
+	background: #4acc4d;
+	padding: 62px 88px;
+}
+.criterion__item_flag h3{
+	width: 156px;
+}
+.criterion__item_money{
+	background: #4ac7cc;
+	padding: 63px 47px;
+}
+.criterion__item_meh{
+	background: #dc6b83;
+	padding: 62px 45px;
+}
+.criterion__title{
+	font-size: : 19px;
+}
+/* ----- Section Proposal ----- */
+.proposal{
+	background: #EEF7F7 url(../img/bg2.jpg) no-repeat center top;
+	text-align: center;
+}
+.proposal .container{
+	width: 1000px;
+}
+.share{
+	padding: 98px 0px 115px 0px;
+}
+.reservation{
+	color: #fff;
+	width: 585px;
+	padding-bottom: 15px;
+}
+.reservation__text{
+	font-size: 16px;
+}
+.reservation__title{
+	font-size: 28px;
+	margin: 30px 0 25px 0;
+}
+.reservation__time p:first-child{
+	margin-right: 15px;
+}
+.reservation__time{
+	justify-content: center;
+}
+/* ----- Section Footer ----- */
+.footer{
+	padding: 23px 0;
+}
+.footer__law{
+	font-size: 12px;
+	margin-left: 153px;
+}

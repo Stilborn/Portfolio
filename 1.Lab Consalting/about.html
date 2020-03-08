@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>О компании</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon -->
+	<link rel="icon" 			href="img/Favicon.jpg" type="image/x-icon">
+	<link rel="shortcut icon" 	href="img/Favicon.jpg" type="image/x-icon">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/solid.css" integrity="sha384-HTDlLIcgXajNzMJv5hiW5s2fwegQng6Hi+fN6t5VAcwO/9qbg2YEANIyKBlqLsiT" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/brands.css" integrity="sha384-KtmfosZaF4BaDBojD9RXBSrq5pNEO79xGiggBxf8tsX+w2dBRpVW5o0BPto2Rb2F" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/fontawesome.css" integrity="sha384-8WwquHbb2jqa7gKWSoAwbJBV2Q+/rQRss9UXL5wlvXOZfSodONmVnifo/+5xJIWX" crossorigin="anonymous">
+	<!-- CSS  -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/main.css">
+<body>
+	<!-- Preloader -->
+	<div id="page-preloader">
+		<span class="spinner">
+			<div class="windows8">
+			<div class="wBall" id="wBall_1">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_2">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_3">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_4">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_5">
+				<div class="wInnerBall"></div>
+			</div>
+		</div>
+		</span>
+	</div>
+	<header id="header" class="header header_secondary">
+		<div class="navigation">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-6 col-sm-4 col-lg-3 col-xl-4">
+						<a href="index.html">
+							<img src="img/Logo-header.png" class="logo" alt="LAB Consulting">
+						</a>
+					</div>
+					<div class="col-lg-7 col-xl-6 d-none d-lg-block menu-show">
+						<nav class="nav">
+							<ul class="nav__list d-flex">
+								<li class="nav__item">
+									<a href="about.html">
+										О компании
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="#">
+										Пресс-центр
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="services.html">
+										Услуги
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="#">
+										Отрасли
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="contacts.html">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-3 col-sm-3 col-lg-2 ml-auto ">
+						<a href="#" class="header-call call button">
+							<i class="fas fa-phone"></i>
+							<span class="d-none d-md-inline"> Заказать звонок </span>
+						</a>
+					</div>
+					<div class="col-auto d-lg-none">
+						<button class="hamburger">
+							<i class="fa fa-bars"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="secondary-offer">
+			<div class="container">
+				<div class="row align-items-center text-center text-lg-left">
+					<div class="col-lg-auto">
+						<div class="secondary-info">
+							<h1 class="secondary-info__title">
+								О компании
+							</h1>
+							<div class="bread-crumbs">
+								<a href="index.html" class="bread-crumbs__link">
+									Главная
+								</a>
+								<span class="bread-crumbs__span">
+									 → О компании
+								</span>		
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-auto ml-lg-auto">
+						<nav class="secondary-nav">
+							<ul class="secondary-nav__list d-flex">
+								<li class="secondary-nav__item">
+									<a href="#" class="secondary-nav__link">
+										Видение
+									</a>
+								</li>
+								<li class="secondary-nav__item">
+									<a href="#" class="secondary-nav__link active">
+										Преимущества
+									</a>
+								</li>
+								<li class="secondary-nav__item">
+									<a href="#" class="secondary-nav__link">
+										Клиенты
+									</a>
+								</li>
+								<li class="secondary-nav__item">
+									<a href="#" class="secondary-nav__link">
+										Партнеры
+									</a>
+								</li>
+								<li class="secondary-nav__item">
+									<a href="#" class="secondary-nav__link">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</header>	
+	<section id="advantages" class="advantages">
+		<div class="container">
+			<h2 class="advantages__title">
+				Преимущества LAB Consult
+			</h2>
+			<div class="advantages__text-block d-flex">
+				<p class="advantages__text advantages__text_first">
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+				</p>
+				<p class="advantages__text advantages__text_second ml-sm-auto">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat commodo consequat.
+				</p>				
+			</div>
+			<ul class="advantages__list">
+				<li class="advantages__item d-flex">					
+					<div class="advantages__wrap">
+						<img src="img/About-sec2-scale.png" class="advantages__img" alt="scale">
+					</div>
+					<div class="advantages__details">
+						<h3 class="advantages__head">
+							Первое весомое преимущество
+						</h3>
+						<p class="advantages__info">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+						</p>
+					</div>					
+				</li>
+				<li class="advantages__item d-flex">					
+					<div class="advantages__wrap">
+						<img src="img/About-sec2-scale.png" class="advantages__img" alt="scale">
+					</div>
+					<div class="advantages__details">
+						<h3 class="advantages__head">
+							Второе сильное и мощное преимущество
+						</h3>
+						<p class="advantages__info">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+						</p>
+					</div>					
+				</li>
+				<li class="advantages__item d-flex">					
+					<div class="advantages__wrap">
+						<img src="img/About-sec2-scale.png" class="advantages__img" alt="scale">
+					</div>
+					<div class="advantages__details">
+						<h3 class="advantages__head">
+							Третье и финальное сильное и мощное преимущество
+						</h3>
+						<p class="advantages__info">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+						</p>
+					</div>					
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="power" class="power">
+		<div class="container">
+			<h2 class="power-title">
+				Фото наших мощностей
+			</h2>
+			<div class="row">
+				<div class="col-md-3">	
+					<div class="power-photo">					
+						<img src="img/About-sec3-pic1.jpeg" class="power-photo__img" alt="Car">
+						<div class="power-photo__overlay">
+							<a href="#" class="power-photo__link"><i class="fas fa-expand"></i></a>
+						</div>		
+					</div>			
+				</div>
+				<div class="col-md-3">	
+					<div class="power-photo">						
+						<img src="img/About-sec3-pic2.jpeg" class="power-photo__img" alt="Car">
+						<div class="power-photo__overlay">
+							<a href="#" class="power-photo__link"><i class="fas fa-expand"></i></a>
+						</div>		
+					</div>			
+				</div>
+				<div class="col-md-3">	
+					<div class="power-photo">					
+						<img src="img/About-sec3-pic3.jpeg" class="power-photo__img" alt="Car">
+						<div class="power-photo__overlay">
+							<a href="#" class="power-photo__link"><i class="fas fa-expand"></i></a>
+						</div>		
+					</div>			
+				</div>
+				<div class="col-md-3">	
+					<div class="power-photo">					
+						<img src="img/About-sec3-pic4.jpeg" class="power-photo__img" alt="Car">
+						<div class="power-photo__overlay">
+							<a href="#" class="power-photo__link"><i class="fas fa-expand"></i></a>
+						</div>		
+					</div>			
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="communication" class="communication">
+		<div class="container">
+			<nav class="row text-center text-md-left">
+				<div class="col-md-6 col-lg-4">
+					<div class="links">
+						<h4 class="links__title">
+							<a href="about.html" class="links__link-title">
+								О компании
+							</a>
+						</h4>
+						<ul class="links__list">
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Видение, миссия и ценности
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Преимущества
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Клиенты
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Партнеры
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="contacts.html" class="links__link">
+									Контакты
+								</a>
+							</li>							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="links">
+						<h4 class="links__title">
+							<a href="#" class="links__link-title">
+								Пресс – центр
+							</a>
+						</h4>
+						<ul class="links__list">
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Новости
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Публикации
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Мероприятия
+								</a>
+							</li>	
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Консультация эксперта
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="links">
+						<h4 class="links__title">
+							<a href="services.html" class="links__link-title">
+								Услуги
+							</a>
+						</h4>
+						<ul class="links__list">
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Legal (Юридическое сопровождение)
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Accounting ( Финансовый аутсорсинг)
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Business Consulting (Бизнес консалтинг)
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="links">
+						<h4 class="links__title">
+							<a href="#" class="links__link-title">
+								Отрасли
+							</a>
+						</h4>
+						<ul class="links__list">
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Аграрный сектор
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Внешнеэкономическая деятельность
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									ИT – бизнес
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Оптовая и розничная торговля
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Сфера услуг
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Транспорт и Логистика
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="links">
+						<h4 class="links__title">
+							<a href="#" class="links__link-title">
+								Образовательный центр
+							</a>
+						</h4>
+						<ul class="links__list">
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Про Образовательный Центр
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Бизнес-тренинги, семинары, круглые столы
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Преимущества
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Alumni
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="links">
+						<h4 class="links__title">
+							<a href="#" class="links__link-title">
+								Соц. предпринимательство
+							</a>
+						</h4>
+						<ul class="links__list">
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Социальная миссия
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Проекты 
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Партнеры 
+								</a>
+							</li>
+							<li class="links__item">
+								<a href="#" class="links__link">
+									Консультация эксперта
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row  text-center text-md-left align-items-center">
+				<div class="col-md-4">
+					<a href="index.html">
+						<img src="img/Logo-footer.png" class="logo footer-logo" alt="Lab-Consulting">
+					</a>
+				</div>
+				<div class="col-md-4 col-lg-3">
+					<div class="cooperation">
+						<p class="cooperation__text cooperation__text_1">
+							Вы хотите сотрудничать с нами? <br>
+							У Вас есть идеи или предложения?
+							Свяжитесь с нами прямо сейчас!
+						</p>
+						<p class="cooperation__text cooperation__text_2">
+							65000, <br>
+							Украина, г. Одесса
+							Ул Базарная, 36
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-2">
+					<div class="Rights">
+						<div class="Rights__first d-flex">
+							<span class="Rights__span Rights__span_W">W</span>
+							<p class="Rights__text Rights__text_1">	
+								Дизайн и разработка
+								<span class="Rights__span Rights__span_coaching">КОУЧИНГ ПО ВЕРСТКЕ</span>								
+							</p>
+						</div>
+						<p class="Rights__text Rights__text_2">
+							© Все права защищены
+							<p class="Rights__text Rights__text_LAB">
+								<span class="Rights__span Rights__span_LAB">LAB</span> 
+								Consulting
+							</p>
+							<a href="#" class="Rights__link" target="_blank">
+								lab-consult.com
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-2 ml-auto d-md-none d-lg-block">
+					<a href="#" class="footer-call call button">
+						<i class="fas fa-phone"></i>
+						Заказать звонок 
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- ModalWindow -->
+	<div class="d-none">
+	    <form class="form-call">
+	       	<h4 class="form-call__title">
+	    		Заказать обратный звонок
+	    	</h4>
+	    	<p class="form-call__text">
+	    		Заполните форму и мы свяжемся с вами как можно скорее. До скорой встречи
+	    	</p>    	
+	    	<input type="text" 	placeholder="Имя" 		name="name"		required>
+			<input type="email" placeholder="E-mail"	name="email"	required>
+			<input type="tel" 	placeholder="Телефон"	name="phone"	required>		
+			<button type="submit" class="form-call__btn button"> 
+					<i class="fas fa-phone"></i>
+				Заказать звонок 
+			</button>
+	    </form>
+	</div>
+	<!-- JS -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

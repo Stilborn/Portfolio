@@ -1,0 +1,453 @@
+/* ----- Font-face ----- */
+@font-face { 
+  font-family: 'MuseoSans 100';
+  src: url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg'); /* Legacy iOS */
+}
+@font-face { 
+  font-family: 'MuseoSans 300';
+  src: url('../fonts/MuseoSansCyrl-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg'); /* Legacy iOS */
+}
+@font-face { 
+  font-family: 'MuseoSans 900';
+  src: url('../fonts/MuseoSansCyrl-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-900.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg'); /* Legacy iOS */
+}
+@font-face { 
+  font-family: 'Natasha';
+  src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Natasha.svg#Natasha') format('svg'); /* Legacy iOS */
+}
+/* ----- Genetal ----- */
+body{
+	font-family: 'MuseoSans 300', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+	color: #000;
+	letter-spacing: 0.12em;
+}
+h1, h2, h3, h4, h5, h6{
+	line-height: 1.4em;
+	letter-spacing: 0.12em;
+	font-weight: 900;
+}
+
+body, div, form, button, input, a, p, span, ul, li, h1, h2, h3, h4, h5, h6{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+ul, li{
+	display: block;
+}
+a, button, li, img{
+	transition: all 0.5s ease; 
+	text-decoration: none;
+}
+a{
+	color: #fff;	
+}
+.container{
+	max-width: 940px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 49px;
+	font-family: 'Natasha';
+	margin-bottom: 17px;
+}
+h2{
+	font-size: 37px;
+	font-family: 'Natasha';
+}
+h3{
+	font-size: 22px;
+	font-family: 'Natasha';
+	color: #6D6F69;
+}
+/* ----- HTML-CSS ----- */
+.d-flex{
+	display: flex;
+	align-items: flex-start;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.jc-center{
+	justify-content: center;
+}
+.ai-center{
+	align-items: center;
+}
+.display-block{
+	display: block;
+}
+/* ----- Section Header ----- */
+.header{
+	color: #fff;
+	background: #21251A url(../img/main-bg.jpg) no-repeat center / cover;
+	padding: 53px 0 80px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+.nav__logo{
+	font-size: 17px;
+	font-family: 'MuseoSans 900';
+}
+.nav__logo span{
+	font-family: 'MuseoSans 100';
+	margin-right: -5px;
+}
+.nav__list{
+	width: 318px;
+	margin-left: 23px;
+}
+.nav__link{
+	font-family: 'MuseoSans 900';
+	padding-bottom: 3px;
+	border-bottom: solid 1px transparent;
+}
+.nav__link:hover{
+	border-bottom: solid 1px #fff;
+}
+.nav__email{
+	font-size: 13px;
+	text-transform: none;
+	padding-bottom: 1px;
+	border-bottom: solid 1px #6F736E;	
+}
+.nav__email:hover{
+	border-bottom: solid 1px transparent;
+}
+.offer{
+	margin: 281px 0 265px 0;
+}
+.offer p{
+	font-size: 29px;
+	font-family: 'MuseoSans 100';
+}
+.arrow-down{
+	font-size: 18px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 7px 0 0 2px;
+}
+.arrow-down:hover{
+	border: 2px dotted #fff;
+}	
+/* ----- Section About-me ----- */
+.about-me{
+	padding: 75px 0 90px 0; 
+	color:#22241B; 
+	letter-spacing: 0.02em;
+}
+.about-me h2{
+	margin-bottom: 55px
+}
+/* ----- About-me Background ----- */
+.background h3{	
+	color: #888886;
+}
+.text-block{
+	margin-top: 35px;
+	line-height: 1.8em;
+	max-width: 435px;
+}
+.text-block p{
+margin-bottom: 26px;
+}
+.text-block p:last-child{
+margin-bottom: 0px;
+}
+/* ----- About-me Merit----- */
+.statistics{
+	width: 470px;
+}
+.merit__list{
+	margin: 60px 11px 60px 11px;
+	text-align: center;
+}
+.merit__item{
+	width: 115px;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+.merit__frame{
+	border: 1px solid #3D6433;
+	width: 72px;
+	height: 72px;
+	position: relative;
+	-moz-transform: rotate(45deg); /* Для Firefox */
+    -ms-transform: rotate(45deg); /* Для IE */
+    -webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(45deg); /* Для Opera */
+    transform: rotate(45deg);
+	margin: 0 auto 35px;
+	display: flex;
+	outline: 1px solid #CDDBC3;	
+	outline-offset: -6px;
+}
+.merit__frame span{
+	font-size: 20px;
+	margin: auto;
+	color: #224F17;
+	-moz-transform: rotate(-45deg); /* Для Firefox */
+    -ms-transform: rotate(-45deg); /* Для IE */
+    -webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-45deg); /* Для Opera */
+    transform: rotate(-45deg);
+}
+/* ----- About-me Communication ----- */
+.communication__links{
+	font-size: 14px;
+	margin-top: 25px;
+}
+.communication__item{
+	margin-bottom: 15px;
+}
+.communication__link{
+	color: #204D15;	
+	letter-spacing: 0.12em;
+	border-bottom: solid 1px #204D15;		
+	padding-bottom: 2px;	
+}
+.communication__link:hover{
+	color: #6fcb59;
+	border-bottom: solid 1px #BECBBB;
+}
+.communication__profile{
+	color: #7C7D7A;
+	width: 255px;
+	padding-bottom: 15px;
+}
+.communication__profile i{
+	font-size: 25px;
+	text-align: center;
+	padding: 20px;
+	color: #204D15;
+	background: #EEF1ED;
+	border-radius: 50%;
+}
+.communication__profile span{
+	font-style: italic;
+}
+.communication__icon:hover{
+	transition: all 0.5s ease; 
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* ----- Section Abilites ----- */
+.abilites__list{
+	margin-top: 50px;
+	color: #3A3C34;
+	text-transform: uppercase;
+}
+.abilites__item{
+	width: 240px;
+}
+.abilites__frame{
+	font-size: 13px;
+	border: 1px solid #365E2C;
+	border-radius: 50%;
+	width: 61Px;
+	height: 61px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.abilites__frame:after{
+	content: '';
+	display: block;
+	position: absolute;
+	border: 1px solid #ADB2AC;
+	border-radius: 50%;
+	width: 47px;
+	height: 47px;
+	left: 5px;
+	top: 5px;
+}
+.abilites__text{
+	font-family: 'MuseoSans 900';
+	margin-left: 25px;
+}
+/* ----- Section Portfolio ----- */
+.portfolio{
+	padding: 70px 0 115px 0;
+}
+.portfolio__list{
+	margin-top: 50px;
+}
+.portfolio__item{
+	position: relative;
+	width: 32%;
+}
+.portfolio__item:hover .portfolio__overlay{
+	opacity: 1;
+}
+.portfolio__img{
+	display: block;
+	width: 100%;
+}
+.portfolio__overlay{
+	background: rgba(0, 0, 0, 0.56);
+	color: #fff;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transition: all 0.5s ease; 
+	opacity: 0;
+}
+.portfolio__title{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'MuseoSans 900';
+	font-size: 15px;
+	letter-spacing: 0em;
+}
+.portfolio__link{
+	letter-spacing: 0em;
+	font-size: 13px;
+	border-bottom: 1px solid #898888;
+	padding-bottom: 1px;
+}
+/* ----- Section Footer ----- */
+.footer{
+	font-size: 11px;
+	text-transform: uppercase;
+	padding-bottom: 110px;
+}
+/* ----- Media Queries----- */
+/* 992-1200px */
+@media screen and (max-width: 1200px){
+
+}
+/* 768-992px */
+@media screen and (max-width: 992px){
+	h1, h2, h3{
+		text-align:center;
+	}
+	.container{
+		width: 700px;
+	}
+	.about{
+		flex-direction: column;
+	}
+	.text-block{
+		max-width: 100%;
+	}
+	.statistics{
+		margin-top: 20px;
+		width: 100%;
+	}
+	.merit__list{
+		justify-content: space-around;
+	}
+	.communication__links{
+		justify-content: space-around;;
+	}
+	.abilites__list{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.abilites__item{
+		margin-top: 20px;
+		flex-basis: 38%;
+	}
+	.footer{
+		text-align: center;
+	}
+}
+/* 576-768px */
+@media screen and (max-width: 768px){
+	.container{
+		width: 520px;
+	}	
+	.nav__list{
+		display: none;
+	}
+	.communication__links{
+		flex-direction: column;
+		text-align: center;
+	}
+	.communication__profile{
+		margin-top: 20px;
+	}
+	.portfolio__list{
+		flex-direction: column;
+		align-items: center;
+	}
+	.portfolio__item{
+		width: 100%;
+		max-width: 300px;
+		margin-top: 10px;
+	}
+	.portfolio__img{
+		width: 100%;
+	}
+	.offer{
+		margin: 100px 0;
+}
+/* 320-576px */
+@media screen and (max-width: 576px){
+	.container{
+		width: 90%;
+	}
+	.nav{
+		flex-direction: column;	
+	}
+	.nav a{
+		margin-bottom: 5px;
+	}
+	.offer p{
+		line-height: 1.4em;
+	}
+	.merit__list{
+		flex-direction: column;
+		align-items: center;
+	}
+	.merit__item{
+		margin-top: 20px;
+	}
+	.communication__profile{
+		flex-direction: column;
+	}
+	.abilites__list{
+		flex-direction: column;
+	}
+	.abilites__item{
+		flex-direction: column;
+		margin: 10px auto;
+	}
+	.abilites__item p{		
+		margin: 10px auto;
+	}
+}
